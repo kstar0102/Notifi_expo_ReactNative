@@ -1,0 +1,57 @@
+{
+  "expo": {
+    "name": "Notification Expo",
+    "slug": "NotificationExpo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.NotificationExpo"
+    },
+    "android": {
+      "useNextNotificationsApi": true,
+      "icon": "./assets/iconNotification.png",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.anonymous.NotificationExpo"
+    },
+    "notification": {
+      "icon": "./assets/iconNotification.png",
+      "color": "#8ac53f",
+      "androidMode": "default",
+      "androidCollapsedTitle": "Title Notification"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "sounds": [
+            "./assets/notification.wav"
+          ]
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "fe70375d-0493-44e2-9244-87e30c97b673"
+      }
+    }
+  }
+}

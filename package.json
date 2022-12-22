@@ -1,0 +1,32 @@
+{
+  "scripts": {
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web",
+    "eject": "expo eject",
+    "build": "expo build:android"
+  },
+  "dependencies": {
+    "expo": "~47.0.8",
+    "expo-constants": "~13.2.4",
+    "expo-notifications": "~0.16.1",
+    "expo-permissions": "~13.2.0",
+    "expo-status-bar": "~1.4.0",
+    "react": "18.1.0",
+    "react-dom": "18.2.0",
+    "react-native": "0.70.5",
+    "react-native-web": "~0.18.10",
+    "expo-splash-screen": "~0.16.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.5",
+    "@types/react": "~18.0.26",
+    "@types/react-dom": "~18.0.9",
+    "@types/react-native": "~0.70.8",
+    "typescript": "~4.9.4"
+  },
+  "private": true,
+  "name": "NotificationExpo-main",
+  "version": "1.0.0"
+}
